@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(cors({
-    origin: ['http://localhost:3000', 'http://localhost:19006', 'exp://192.168.1.100:19000'], // Add your React Native dev server URLs
+    origin: ['https://taskmanager-yj26.onrender.com', 'http://localhost:19006', 'exp://192.168.1.100:19000'], // Add your React Native dev server URLs
     credentials: true
 }));
 app.use(express.json());
